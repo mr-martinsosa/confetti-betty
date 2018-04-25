@@ -17,10 +17,32 @@ get "/" do
 end
 
 get "/cookies" do
+    @cookies = []
+    
+    black_white = Cake.new("Black White Cake", "#{path}" + "black-white-cake.jpg", 
+    "Is it chocolate? Is it vanilla? We don't even know.", "1$2.50")
+    chocolate = Cake.new("Chocolate Cake", "#{path}" + "chocolate-cake.jpg", 
+    "This one is definitely chocolate.", "$12.50")
+    strawberry = Cake.new("Strawberry Shortcake", "#{path}" + "strawberry-shortcake.jpg", 
+    "A delicious cake garneshed with strawberries and drenched with more strawberry", "$12.50")
+
+    @cookies.push(black_white, chocolate, strawberry)
+    
     erb :cookies
 end
 
 get "/cakes" do
+    @cakes = []
+    
+    black_white = Cake.new("Black White Cake", "#{path}" + "black-white-cake.jpg", 
+    "Is it chocolate? Is it vanilla? We don't even know.", "1$2.50")
+    chocolate = Cake.new("Chocolate Cake", "#{path}" + "chocolate-cake.jpg", 
+    "This one is definitely chocolate.", "$12.50")
+    strawberry = Cake.new("Strawberry Shortcake", "#{path}" + "strawberry-shortcake.jpg", 
+    "A delicious cake garneshed with strawberries and drenched with more strawberry", "$12.50")
+
+    @cakes.push(black_white, chocolate, strawberry)
+
     erb :cakes
 end
 
