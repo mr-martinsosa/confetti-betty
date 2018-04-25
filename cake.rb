@@ -1,4 +1,8 @@
 class Cake
-    def initialize(name, description, price)
+    def initialize(name, image, description, price)
+        @name = name
+        @image = image
+        @description = description
+        @price = price
     end
 end

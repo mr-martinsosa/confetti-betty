@@ -1,0 +1,19 @@
+<div class ="container">
+    <div class="row">
+        <% for muffin in @muffins%>
+            <section class="col s4 ">
+                <div class="card center-align ">
+                    <div class="card-image center-align">
+                        <img class="responsive-img" src=<%= muffin.image%>>
+                            <span class="card-title"></span>
+                    </div>
+                        <section class="card-content">
+                            <h3> <%= muffin.name %> </h3>
+                            <p><%=muffin.description%></p>
+                            <p><%=muffin.price%></p>
+                        </section>
+                    </div>
+            </section>
+        <% end %>
+    </div>
+    </div>

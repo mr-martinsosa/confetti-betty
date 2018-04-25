@@ -1,5 +1,6 @@
 require "sinatra"
 require "sinatra/reloader"
+require "sinatra/content_for"
 require "sendgrid-ruby"
 require_relative "cookie"
 require_relative "cake"
@@ -9,6 +10,7 @@ include SendGrid
 
 to = Email.new(email: ENV["PERSONAL_EMAIL"])
 from = Email.new(email: ENV["PERSONAL_EMAIL"])
+path = "../images/"
 
 get "/" do
     erb :index
@@ -18,11 +20,23 @@ get "/cookies" do
     erb :cookies
 end
 
-get "/cake" do
+get "/cakes" do
     erb :cakes
 end
 
-get "/muffin" do
+get "/muffins" do
+    @muffins = []
+    
+    apple = Muffin.new("Apple Muffin", "#{path}" + "apple-muffin.jpg", 
+    "Delicious muffins made with apple, just like how grandma used to make them.", "$2.50")
+    banana = Muffin.new("Banana Nut Muffin", "#{path}" + "banana-nut-muffin.jpg", 
+    "Delicious muffins made with banana and nuts, just like how mom used to make them.", 
+    "$2.50")
+    egg = Muffin.new("Stuffed Egg Muffin", "#{path}" + "egg-muffin.jpg", 
+    "A muffin packed with eggs and other breakfast essentials!", "$2.50")
+
+    @muffins.push(apple, banana, egg)
+
     erb :muffins
 end
 
