@@ -1,6 +1,9 @@
 require "sinatra"
-#require "sinatra/reloader"
+require "sinatra/reloader"
 require "sendgrid-ruby"
+require_relative "cookie"
+require_relative "cake"
+require_relative "muffin"
 
 include SendGrid
 
@@ -9,6 +12,18 @@ from = Email.new(email: ENV["PERSONAL_EMAIL"])
 
 get "/" do
     erb :index
+end
+
+get "/cookies" do
+    erb :cookies
+end
+
+get "/cake" do
+    erb :cakes
+end
+
+get "/muffin" do
+    erb :muffins
 end
 
 post "/catalog" do
