@@ -1,0 +1,19 @@
+<div class ="container">
+    <div class="row">
+        <% for cookie in @cookies%>
+            <section class="col s4 ">
+                <div class="card center-align ">
+                    <div class="card-image center-align">
+                        <img class="responsive-img" src=<%= cookie.image%>>
+                            <span class="card-title"></span>
+                    </div>
+                        <section class="card-content">
+                            <h3> <%= cookie.name %> </h3>
+                            <p><%=cookie.description%></p>
+                            <p><%=cookie.price%></p>
+                        </section>
+                    </div>
+            </section>
+        <% end %>
+    </div>
+</div>

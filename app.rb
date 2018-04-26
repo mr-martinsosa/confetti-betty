@@ -19,14 +19,14 @@ end
 get "/cookies" do
     @cookies = []
     
-    black_white = Cake.new("Black White Cake", "#{path}" + "black-white-cake.jpg", 
-    "Is it chocolate? Is it vanilla? We don't even know.", "1$2.50")
-    chocolate = Cake.new("Chocolate Cake", "#{path}" + "chocolate-cake.jpg", 
-    "This one is definitely chocolate.", "$12.50")
-    strawberry = Cake.new("Strawberry Shortcake", "#{path}" + "strawberry-shortcake.jpg", 
-    "A delicious cake garneshed with strawberries and drenched with more strawberry", "$12.50")
+    m_m = Cookie.new("M&M Cookie", "#{path}" + "mm-cookie.jpg", 
+    "It's a sweet drenched in sweets! A fan favorite!", "$1.50")
+    ginger = Cookie.new("Ginger Cookie", "#{path}" + "ginger-cookie.jpg", 
+    "Try our secretly made cookie, using our secret ingredient that you may or may not know.", "$1.50")
+    white_nut = Cake.new("White Macadamia Cookie", "#{path}" + "white-nut-cookie.jpg", 
+    "A delicious cake garneshed with strawberries and drenched with more strawberry", "$1.50")
 
-    @cookies.push(black_white, chocolate, strawberry)
+    @cookies.push(m_m, ginger, white_nut)
     
     erb :cookies
 end
@@ -35,7 +35,7 @@ get "/cakes" do
     @cakes = []
     
     black_white = Cake.new("Black White Cake", "#{path}" + "black-white-cake.jpg", 
-    "Is it chocolate? Is it vanilla? We don't even know.", "1$2.50")
+    "Is it chocolate? Is it vanilla? We don't even know.", "$12.50")
     chocolate = Cake.new("Chocolate Cake", "#{path}" + "chocolate-cake.jpg", 
     "This one is definitely chocolate.", "$12.50")
     strawberry = Cake.new("Strawberry Shortcake", "#{path}" + "strawberry-shortcake.jpg", 
