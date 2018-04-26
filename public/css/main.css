@@ -13,8 +13,8 @@ p{
 .card{
     border-radius: 15px;
     font-size: 12px;
-    /* width: 300px; */
 }
-input-field col s9 offset-s1 center{
-    
+
+.card-image img{
+    height: 250px;
 }
