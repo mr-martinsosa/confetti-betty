@@ -1,35 +1,35 @@
-M&M Cookie
-It's a sweet drenched in sweets! A fan favorite!
-$1.50
+M&M Cookie <br/>
+It's a sweet drenched in sweets! A fan favorite! <br/>
+$1.50 <br/>
 
-Ginger Cookie
-Try our secretly made cookie, using our secret ingredient that you may or may not know.
-$1.50
+Ginger Cookie <br/>
+Try our secretly made cookie, using our secret ingredient that you may or may not know. <br/>
+$1.50 <br/>
 
-White Macadamia Cookie 
-A delicious cake garneshed with strawberries and drenched with more strawberry.
-$1.50
+White Macadamia Cookie <br/>
+A delicious cake garneshed with strawberries and drenched with more strawberry. <br/>
+$1.50 <br/>
 
-Black White Cake
-Is it chocolate? Is it vanilla? We don't even know.
-$12.50
+Black White Cake <br/>
+Is it chocolate? Is it vanilla? We don't even know. <br/>
+$12.50 <br/>
 
-Chocolate Cake
-This one is definitely chocolate.
-$12.50
+Chocolate Cake <br/>
+This one is definitely chocolate. <br/>
+$12.50 <br/>
 
-Strawberry Shortcake
-A delicious cake garneshed with strawberries and drenched with more strawberry.
-$12.50
+Strawberry Shortcake <br/>
+A delicious cake garneshed with strawberries and drenched with more strawberry. <br/>
+$12.50 <br/>
 
-Apple Muffin
-Delicious muffins made with apple, just like how grandma used to make them.
-$2.50
+Apple Muffin <br/>
+Delicious muffins made with apple, just like how grandma used to make them. <br/>
+$2.50 <br/>
 
-Banana Nut Muffin
-Delicious muffins made with banana and nuts, just like how mom used to make them.
-$2.50
+Banana Nut Muffin <br/>
+Delicious muffins made with banana and nuts, just like how mom used to make them. <br/>
+$2.50 <br/>
 
-Stuffed Egg Muffin
-A muffin packed with eggs and other breakfast essentials!
-$2.50
+Stuffed Egg Muffin <br/>
+A muffin packed with eggs and other breakfast essentials! <br/>
+$2.50 <br/>

@@ -98,8 +98,8 @@ post "/" do
     subject = "Confetti Betty - Product Catalog"
     to = Email.new(email: params[:email])
     content = Content.new(
-        type: 'text/plain', 
-        value: "Hey, #{params[:name]}! Here is our catalog: #{catalog_list}"
+        type: 'text/html', 
+        value: "Hey, #{params[:name]}! Here is our catalog: <br/> #{catalog_list}"
     )  
     mail = Mail.new(from, subject, to, content)
     sg = SendGrid::API.new(
@@ -107,5 +107,9 @@ post "/" do
     )
     response = sg.client.mail._('send').post(request_body: mail.to_json)
 
-    redirect "/"
+    redirect "/success"
+end
+
+get "/success" do
+    erb :success
 end
