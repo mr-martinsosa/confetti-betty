@@ -42,12 +42,13 @@ def catalog()
 end
 
 def grab_catalog()
+    catalog = ""
     File.open("public/text/catalog.txt", "r") do |file_handle|
         file_handle.each_line do |line|
-          catalog += line
+            p line
+          catalog.concat(line)
         end
     end
-    File.close()
     catalog
 end
 
@@ -98,7 +99,7 @@ post "/" do
     to = Email.new(email: params[:email])
     content = Content.new(
         type: 'text/plain', 
-        value: "#{catalog_list} "
+        value: "Hey, #{params[:name]}! Here is our catalog: #{catalog_list}"
     )  
     mail = Mail.new(from, subject, to, content)
     sg = SendGrid::API.new(
