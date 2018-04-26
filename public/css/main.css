@@ -1,3 +1,15 @@
+body{
+    background-color: #fce4ec;
+}
+nav, p{
+    font-family: 'Poiret One', cursive;
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-size: 36px;
+}
 .card{
     border-radius: 15px;
     /* width: 300px; */
