@@ -1,35 +1,44 @@
 M&M Cookie <br/>
+<a href="https://confetti-betty.herokuapp.com/cookies"><img src="https://i.imgur.com/fc9eKsQ.jpg" style="height:250px;"/></a> <br/>
 It's a sweet drenched in sweets! A fan favorite! <br/>
 $1.50 <br/>
 
 Ginger Cookie <br/>
+<a href="https://confetti-betty.herokuapp.com/cookies"><img src="https://i.imgur.com/M6QkLY0.jpg" style="height:250px;"/> </a><br/>
 Try our secretly made cookie, using our secret ingredient that you may or may not know. <br/>
 $1.50 <br/>
 
 White Macadamia Cookie <br/>
+<a href="https://confetti-betty.herokuapp.com/cookies"><img src="https://i.imgur.com/R7X2YWK.jpg" style="height:250px;"/> </a><br/> 
 A delicious cake garneshed with strawberries and drenched with more strawberry. <br/>
 $1.50 <br/>
 
 Black White Cake <br/>
+<a href="https://confetti-betty.herokuapp.com/cakes"><img src="https://i.imgur.com/gB5K7Uy.jpg" style="height:250px;"/> </a><br/>
 Is it chocolate? Is it vanilla? We don't even know. <br/>
 $12.50 <br/>
 
 Chocolate Cake <br/>
+<a href="https://confetti-betty.herokuapp.com/cakes"><img src="https://i.imgur.com/zHBqkOi.jpg" style="height:250px;"/> </a><br/>
 This one is definitely chocolate. <br/>
 $12.50 <br/>
 
 Strawberry Shortcake <br/>
+<a href="https://confetti-betty.herokuapp.com/cakes"><img src="https://i.imgur.com/EgVFJuR.jpg" style="height:250px;"/> </a><br/>
 A delicious cake garneshed with strawberries and drenched with more strawberry. <br/>
 $12.50 <br/>
 
 Apple Muffin <br/>
+<a href="https://confetti-betty.herokuapp.com/muffins"><img src="https://i.imgur.com/7EuWIfT.jpg" style="height:250px;"/></a> <br/>
 Delicious muffins made with apple, just like how grandma used to make them. <br/>
 $2.50 <br/>
 
 Banana Nut Muffin <br/>
+<a href="https://confetti-betty.herokuapp.com/muffins"><img src="https://i.imgur.com/l8GWeSe.jpg" style="height:250px;"/></a> <br/>
 Delicious muffins made with banana and nuts, just like how mom used to make them. <br/>
 $2.50 <br/>
 
 Stuffed Egg Muffin <br/>
+<a href="https://confetti-betty.herokuapp.com/muffins"><img src="https://i.imgur.com/xoE3tZG.jpg" style="height:250px;"/></a> <br/>
 A muffin packed with eggs and other breakfast essentials! <br/>
 $2.50 <br/>

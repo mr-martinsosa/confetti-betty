@@ -20,7 +20,7 @@ def catalog()
     ginger = Cookie.new("Ginger Cookie", "#{path}" + "ginger-cookie.jpg", 
     "Try our secretly made cookie, using our secret ingredient that you may or may not know.", "$1.50")
     white_nut = Cake.new("White Macadamia Cookie", "#{path}" + "white-nut-cookie.jpg", 
-    "A delicious cake garneshed with strawberries and drenched with more strawberry.", "$1.50")
+    "It's a cookie loaded with white nuts!", "$1.50")
 
     black_white = Cake.new("Black White Cake", "#{path}" + "black-white-cake.jpg", 
     "Is it chocolate? Is it vanilla? We don't even know.", "$12.50")
@@ -45,7 +45,6 @@ def grab_catalog()
     catalog = ""
     File.open("public/text/catalog.txt", "r") do |file_handle|
         file_handle.each_line do |line|
-            p line
           catalog.concat(line)
         end
     end
